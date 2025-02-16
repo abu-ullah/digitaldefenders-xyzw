@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazinga!</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .center {
+            max-width: 80%;
+        }
+
+        h2 {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        h2:hover {
+            color: darkblue;
+        }
+
+        @media (max-width: 600px) {
+            .center {
+                max-width: 95%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <h1>Bazinga! You haven't learned your lesson. Still clicking on links that lead somewhere malicious.</h1>
+        <h2>Always hover over the hyperlink to see the actual URL before pressing it</h2>
+    </div>
+</body>
+
+</html>
